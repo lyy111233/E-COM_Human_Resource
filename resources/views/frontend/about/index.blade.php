@@ -1,131 +1,108 @@
 @extends('frontend.layout.master')
 
 @section('content')
-    <div class="templateux-cover" style="background-image: url( {{ asset('frontend/images/hero_1.jpg') }}">
+
+    <!-- Hero Section -->
+    <div class="templateux-cover" style="background-image: url({{ asset('frontend/images/hero_1.jpg') }})">
         <div class="container">
             <div class="row align-items-lg-center">
-
                 <div class="col-lg-6 order-lg-1 text-center mx-auto">
                     <h1 class="heading mb-3 text-white" data-aos="fade-up">About Us</h1>
-                    <p class="lead mb-5 text-white" data-aos="fade-up" data-aos-delay="100">Far far away, behind the word
-                        mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p data-aos="fade-up" data-aos-delay="200"><a href="#" class="btn btn-primary py-3 px-4 mr-3">Get
-                            Started</a> <a href="#" class="text-white">Learn More</a></p>
+                    <p class="lead mb-5 text-white" data-aos="fade-up" data-aos-delay="100">
+                        Empowering businesses with tailored human resource solutions that drive growth and success.
+                    </p>
+                    <p data-aos="fade-up" data-aos-delay="200">
+                        <a href="#" class="btn btn-primary py-3 px-4 mr-3">Get Started</a>
+                        <a href="#" class="text-white">Learn More</a>
+                    </p>
                 </div>
-
             </div>
         </div>
-    </div> <!-- .templateux-cover -->
+    </div>
 
-
-
+    <!-- Our Agency -->
     <div class="templateux-section">
-
         <div class="container" data-aos="fade-up">
             <div class="row">
                 <div class="col-lg-7">
                     <h2 class="mb-5">Our Agency</h2>
-                    <div class="owl-carousel wide-slider">
+                    <p>At C2B Human Resource, we’re not just recruiters — we’re your strategic HR partner. We help organizations hire smarter, retain top talent, and build future-ready teams. Whether you're a startup or a large enterprise, we offer scalable, human-centered HR solutions designed to drive long-term success.</p>
+                    <div class="owl-carousel wide-slider mt-4">
                         <div class="item">
-                            <img src="{{ asset('frontend/images/slider-1.jpg') }}" alt="Free template by TemplateUX.com" class="img-fluid">
+                            <img src="{{ asset('frontend/images/slider-1.jpg') }}" alt="Agency Image" class="img-fluid">
                         </div>
                         <div class="item">
-                            <img src="{{ asset('frontend/images/slider-2.jpg') }}" alt="Free template by TemplateUX.com" class="img-fluid">
+                            <img src="{{ asset('frontend/images/slider-2.jpg') }}" alt="Agency Image" class="img-fluid">
                         </div>
                         <div class="item">
-                            <img src="{{ asset('frontend/images/slider-3.jpg') }}" alt="Free template by TemplateUX.com" class="img-fluid">
+                            <img src="{{ asset('frontend/images/slider-3.jpg') }}" alt="Agency Image" class="img-fluid">
                         </div>
-                    </div> <!-- .owl-carousel -->
+                    </div>
                 </div>
+
                 <div class="col-lg-5 pl-lg-5">
                     <h2 class="mb-5">Why Us?</h2>
                     <div class="accordion" id="accordionExample">
 
-
                         <div class="accordion-item">
                             <h2 class="mb-0 rounded mb-2">
-                                <a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                                    aria-controls="collapseOne">
-                                    Provident alias</a>
-                            </h2>
-
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                data-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Lorem ipsum dolor sit amet, <a href="#">Cnsectetur adipisicing</a> elit. Eos
-                                        quos incidunt, perspiciatis, ad saepe, magnam error adipisci vitae ut provident
-                                        alias! Odio debitis error ipsum molestiae voluptas accusantium quibusdam animi,
-                                        soluta explicabo asperiores aliquid, modi natus suscipit deleniti. Corrupti, autem.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="mb-0 rounded mb-2">
-                                <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseTwo"
-                                    aria-expanded="false" aria-controls="collapseTwo">
-                                    Debitis ad similique tempore
+                                <a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Proven Expertise
                                 </a>
                             </h2>
-
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                data-parent="#accordionExample">
+                            <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate animi
-                                        hic quasi sequi odio, vitae dolorum soluta sapiente debitis ad similique tempore,
-                                        aliquam quae nam deserunt dicta ullam perspiciatis minima, quam. Quis repellat
-                                        corporis aperiam, veritatis nemo iure inventore.</p>
+                                    <p>Our team brings decades of hands-on HR and recruitment experience across industries — giving your business the edge in today’s talent market.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="accordion-item">
                             <h2 class="mb-0 rounded mb-2">
-                                <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseThree"
-                                    aria-expanded="false" aria-controls="collapseThree">
-                                    Lorem ipsum dolor sit amet
+                                <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Human-Centered Approach
                                 </a>
                             </h2>
-
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                data-parent="#accordionExample">
+                            <div id="collapseTwo" class="collapse" data-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum et dolorum libero
-                                        consequuntur facere molestias beatae quod labore quidem ad quasi eius pariatur quae
-                                        nam quo soluta optio dicta, doloribus ullam fugit nulla! Itaque necessitatibus eum
-                                        sed quam eos id!</p>
+                                    <p>We believe people are your greatest asset. Our strategies focus on cultural fit, engagement, and long-term alignment with your business goals.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="accordion-item">
                             <h2 class="mb-0 rounded mb-2">
-                                <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseFour"
-                                    aria-expanded="false" aria-controls="collapseFour">
-                                    Modi natus suscipit
+                                <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Scalable Solutions
                                 </a>
                             </h2>
-
-                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                                data-parent="#accordionExample">
+                            <div id="collapseThree" class="collapse" data-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos quos incidunt,
-                                        perspiciatis, ad saepe, magnam error adipisci vitae ut provident alias! Odio debitis
-                                        error ipsum molestiae voluptas accusantium quibusdam animi, soluta explicabo
-                                        asperiores aliquid, modi natus suscipit deleniti. Corrupti, autem.</p>
+                                    <p>Whether you’re growing a team or building a department, our HR services scale with your company’s evolving needs.</p>
                                 </div>
                             </div>
                         </div>
 
-                    </div>
+                        <div class="accordion-item">
+                            <h2 class="mb-0 rounded mb-2">
+                                <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    End-to-End Support
+                                </a>
+                            </h2>
+                            <div id="collapseFour" class="collapse" data-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>From sourcing and onboarding to performance management and retention, we support every stage of your employee journey.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div> <!-- .accordion -->
                 </div>
             </div>
         </div>
-    </div> <!-- .templateux-section -->
+    </div>
 
-
-
+    <!-- Our Team -->
     <div class="templateux-section pb-0">
         <div class="container">
             <div class="row text-center mb-5">
@@ -134,77 +111,32 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
-                    <div class="staff" class="staff-img" style="background-image: url( {{ asset('frontend/images/person_1.jpg') }}">
-                        <a href="#" class="desc">
-                            <h3>Bob Miller</h3>
-                            <span>CEO and Co-Founder</span>
-                            <div class="parag">
-                                <p>Even the all-powerful Pointing has no control about the blind texts</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
-                    <div class="staff" class="staff-img" style="background-image: url( {{ asset('frontend/images/person_2.jpg') }}">
-                        <a href="#" class="desc">
-                            <h3>Jean Smith</h3>
-                            <span>CEO and Co-Founder</span>
-                            <div class="parag">
-                                <p>Even the all-powerful Pointing has no control about the blind texts</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
-                    <div class="staff" class="staff-img" style="background-image: url( {{ asset('frontend/images/person_3.jpg') }}">
-                        <a href="#" class="desc">
-                            <h3>David Wilson</h3>
-                            <span>CEO and Co-Founder</span>
-                            <div class="parag">
-                                <p>Even the all-powerful Pointing has no control about the blind texts</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                @php
+                    $team = [
+                        ['name' => 'Bob Miller', 'role' => 'Chief Executive Officer', 'image' => 'person_1.jpg'],
+                        ['name' => 'Jean Smith', 'role' => 'Chief Operations Officer', 'image' => 'person_2.jpg'],
+                        ['name' => 'David Wilson', 'role' => 'Chief Talent Officer', 'image' => 'person_3.jpg'],
+                    ];
+                @endphp
 
-                <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
-                    <div class="staff" class="staff-img" style="background-image: url( {{ asset('frontend/images/person_1.jpg') }}">
-                        <a href="#" class="desc">
-                            <h3>Bob Miller</h3>
-                            <span>CEO and Co-Founder</span>
-                            <div class="parag">
-                                <p>Even the all-powerful Pointing has no control about the blind texts</p>
-                            </div>
-                        </a>
+                @foreach(array_merge($team) as $member)
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
+                        <div class="staff" style="background-image: url({{ asset('frontend/images/' . $member['image']) }})">
+                            <a href="#" class="desc">
+                                <h3>{{ $member['name'] }}</h3>
+                                <span>{{ $member['role'] }}</span>
+                                <div class="parag">
+                                    <p>{{ $member['name'] }} brings valuable leadership and a passion for transforming HR strategies into business growth.</p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
-                    <div class="staff" class="staff-img" style="background-image: url( {{ asset('frontend/images/person_2.jpg') }}">
-                        <a href="#" class="desc">
-                            <h3>Jean Smith</h3>
-                            <span>CEO and Co-Founder</span>
-                            <div class="parag">
-                                <p>Even the all-powerful Pointing has no control about the blind texts</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
-                    <div class="staff" class="staff-img" style="background-image: url( {{ asset('frontend/images/person_3.jpg') }}">
-                        <a href="#" class="desc">
-                            <h3>David Wilson</h3>
-                            <span>CEO and Co-Founder</span>
-                            <div class="parag">
-                                <p>Even the all-powerful Pointing has no control about the blind texts</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </div>
 
+    <!-- Testimonials -->
     <div class="templateux-section">
         <div class="container">
             <div class="row text-center mb-5">
@@ -218,34 +150,28 @@
                     <div class="owl-carousel wide-slider-testimonial">
                         <div class="item">
                             <blockquote class="block-testomonial">
-                                <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and
-                                    Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at
-                                    the coast of the Semantics, a large language ocean.&rdquo;</p>
+                                <p>&ldquo;Working with C2B Human Resource has revolutionized the way we hire. Their insight and attention to detail gave us access to candidates we wouldn't have found otherwise.&rdquo;</p>
                                 <p><cite>Drew Wilson, CEO and Founder of CoLab</cite></p>
                             </blockquote>
                         </div>
 
                         <div class="item">
                             <blockquote class="block-testomonial">
-                                <p>&ldquo;When she reached the first hills of the Italic Mountains, she had a last view back
-                                    on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the
-                                    subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek,
-                                    then she continued her way.&rdquo;</p>
+                                <p>&ldquo;C2B is more than a recruitment firm — they’re a partner in our company’s growth strategy. Their tailored HR support is unmatched.&rdquo;</p>
                                 <p><cite>Craig Smith, CEO and Founder of Slite</cite></p>
                             </blockquote>
                         </div>
 
                         <div class="item">
                             <blockquote class="block-testomonial">
-                                <p>&ldquo;A small river named Duden flows by their place and supplies it with the necessary
-                                    regelialia. It is a paradisematic country, in which roasted parts of sentences fly into
-                                    your mouth.&rdquo;</p>
+                                <p>&ldquo;They helped us build a scalable hiring process from the ground up. We’ve seen reduced turnover and better team alignment since working with C2B.&rdquo;</p>
                                 <p><cite>Bob Robe, CEO and Founder of Fixer</cite></p>
                             </blockquote>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> <!-- .container -->
-    </div> <!-- .templateux-section -->
+        </div>
+    </div>
+
 @endsection

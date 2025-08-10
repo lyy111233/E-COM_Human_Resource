@@ -1,19 +1,22 @@
 @extends('frontend.layout.master')
 
 @section('content')
-
-    <div class="templateux-cover" style="background-image: url( {{asset('frontend/images/hero_1.jpg') }}">
+    <div class="templateux-cover" style="background-image: url( {{ asset('frontend/images/hero_1.jpg') }}">
         <div class="container">
             <div class="row align-items-lg-center">
 
                 <div class="col-lg-6 order-lg-1">
-                    <h1 class="heading mb-3 text-white" data-aos="fade-up">We Are Your Partners in <strong>Human
-                            Resource</strong></h1>
-                    <p class="lead mb-5 text-white" data-aos="fade-up" data-aos-delay="100">Far far away, behind the
-                        word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                    <h1 class="heading mb-3 text-white" data-aos="fade-up">
+                        Empowering Business Through <strong>Human Capital</strong>
+                    </h1>
+                    <p class="lead mb-5 text-white" data-aos="fade-up" data-aos-delay="100">
+                        At C2B Human Resource, we connect skilled individuals with organizations seeking growth, innovation,
+                        and excellence in workforce management.
                     </p>
-                    <p data-aos="fade-up" data-aos-delay="200"><a href="#" class="btn btn-primary py-3 px-4 mr-3">Get
-                            Started</a> <a href="#" class="text-white">Learn More</a></p>
+                    <p data-aos="fade-up" data-aos-delay="200">
+                        <a href="#" class="btn btn-primary py-3 px-4 mr-3">Get Started</a>
+                        <a href="#" class="text-white">Learn More</a>
+                    </p>
                 </div>
 
             </div>
@@ -28,43 +31,45 @@
                         <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
                             <div class="media block-icon-1 d-block text-left">
                                 <div class="icon mb-3">
-                                    <img src="{{ asset('frontend/images/flaticon/svg/001-consultation.svg') }}" alt="Image" class="img-fluid">
+                                    <img src="{{ asset('frontend/images/flaticon/svg/001-consultation.svg') }}"
+                                        alt="Image" class="img-fluid">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="h5 mb-4">Corporate Collaboration</h3>
-                                    <p>A small river named Duden flows by their place and supplies it with the
-                                        necessary regelialia.</p>
+                                    <h3 class="h5 mb-4">Tailored HR Solutions</h3>
+                                    <p>We offer customized human resource strategies aligned with your business goals and
+                                        industry demands.</p>
                                     <p><a href="#">Learn More</a></p>
                                 </div>
-                            </div> <!-- .block-icon-1 -->
+                            </div>
                         </div>
                         <div class="col-md-4" data-aos="fade-up" data-aos-delay="700">
                             <div class="media block-icon-1 d-block text-left">
                                 <div class="icon mb-3">
-                                    <img src="{{ asset('frontend/images/flaticon/svg/002-discussion.svg') }}" alt="Image" class="img-fluid">
+                                    <img src="{{ asset('frontend/images/flaticon/svg/002-discussion.svg') }}" alt="Image"
+                                        class="img-fluid">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="h5 mb-4">Strategic Partners</h3>
-                                    <p>A small river named Duden flows by their place and supplies it with the
-                                        necessary regelialia.</p>
+                                    <h3 class="h5 mb-4">Dedicated Partnerships</h3>
+                                    <p>We work closely with businesses to build long-term partnerships based on trust,
+                                        transparency, and results.</p>
                                     <p><a href="#">Learn More</a></p>
                                 </div>
-                            </div> <!-- .block-icon-1 -->
+                            </div>
                         </div>
                         <div class="col-md-4" data-aos="fade-up" data-aos-delay="800">
                             <div class="media block-icon-1 d-block text-left">
                                 <div class="icon mb-3">
-                                    <img src="{{ asset('frontend/images/flaticon/svg/003-turnover.svg') }}" alt="Image" class="img-fluid">
+                                    <img src="{{ asset('frontend/images/flaticon/svg/003-turnover.svg') }}" alt="Image"
+                                        class="img-fluid">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="h5 mb-4">Infinite Posibilities</h3>
-                                    <p>A small river named Duden flows by their place and supplies it with the
-                                        necessary regelialia.</p>
+                                    <h3 class="h5 mb-4">Scalable Workforce</h3>
+                                    <p>Whether you're scaling up or down, our flexible solutions ensure you have the right
+                                        talent at the right time.</p>
                                     <p><a href="#">Learn More</a></p>
                                 </div>
-                            </div> <!-- .block-icon-1 -->
+                            </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -72,43 +77,40 @@
     </div> <!-- .templateux-section -->
 
     <div class="templateux-section">
-
         <div class="container" data-aos="fade-up">
             <div class="row">
                 <div class="col-lg-7">
-                    <h2 class="mb-5">Our Agency</h2>
+                    <h2 class="mb-5">About C2B Human Resource</h2>
                     <div class="owl-carousel wide-slider">
                         <div class="item">
-                            <img src="{{ asset('frontend/images/slider-1.jpg') }}" alt="Free template by TemplateUX.com" class="img-fluid">
+                            <img src="{{ asset('frontend/images/slider-1.jpg') }}" alt="Team Collaboration"
+                                class="img-fluid">
                         </div>
                         <div class="item">
-                            <img src="{{ asset('frontend/images/slider-2.jpg') }}" alt="Free template by TemplateUX.com" class="img-fluid">
+                            <img src="{{ asset('frontend/images/slider-2.jpg') }}" alt="Workforce Planning"
+                                class="img-fluid">
                         </div>
                         <div class="item">
-                            <img src="{{ asset('frontend/images/slider-3.jpg') }}" alt="Free template by TemplateUX.com" class="img-fluid">
+                            <img src="{{ asset('frontend/images/slider-3.jpg') }}" alt="Talent Acquisition"
+                                class="img-fluid">
                         </div>
-                    </div> <!-- .owl-carousel -->
+                    </div>
                 </div>
                 <div class="col-lg-5 pl-lg-5">
-                    <h2 class="mb-5">Why Us?</h2>
+                    <h2 class="mb-5">Why Choose Us?</h2>
                     <div class="accordion" id="accordionExample">
-
 
                         <div class="accordion-item">
                             <h2 class="mb-0 rounded mb-2">
                                 <a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
                                     aria-controls="collapseOne">
-                                    Provident alias</a>
+                                    Client-Centric Model
+                                </a>
                             </h2>
-
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                data-parent="#accordionExample">
+                            <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>Lorem ipsum dolor sit amet, <a href="#">Cnsectetur adipisicing</a>
-                                        elit. Eos quos incidunt, perspiciatis, ad saepe, magnam error adipisci vitae
-                                        ut provident alias! Odio debitis error ipsum molestiae voluptas accusantium
-                                        quibusdam animi, soluta explicabo asperiores aliquid, modi natus suscipit
-                                        deleniti. Corrupti, autem.</p>
+                                    <p>Our C2B approach focuses on listening to the client’s needs first. We then deliver HR
+                                        solutions that truly make an impact.</p>
                                 </div>
                             </div>
                         </div>
@@ -117,18 +119,13 @@
                             <h2 class="mb-0 rounded mb-2">
                                 <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseTwo"
                                     aria-expanded="false" aria-controls="collapseTwo">
-                                    Debitis ad similique tempore
+                                    Industry Expertise
                                 </a>
                             </h2>
-
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                data-parent="#accordionExample">
+                            <div id="collapseTwo" class="collapse" data-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate
-                                        animi hic quasi sequi odio, vitae dolorum soluta sapiente debitis ad
-                                        similique tempore, aliquam quae nam deserunt dicta ullam perspiciatis
-                                        minima, quam. Quis repellat corporis aperiam, veritatis nemo iure inventore.
-                                    </p>
+                                    <p>We specialize in multiple industries, allowing us to provide informed, strategic HR
+                                        insights tailored to your sector.</p>
                                 </div>
                             </div>
                         </div>
@@ -137,17 +134,13 @@
                             <h2 class="mb-0 rounded mb-2">
                                 <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseThree"
                                     aria-expanded="false" aria-controls="collapseThree">
-                                    Lorem ipsum dolor sit amet
+                                    Agile and Scalable
                                 </a>
                             </h2>
-
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                data-parent="#accordionExample">
+                            <div id="collapseThree" class="collapse" data-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum et dolorum
-                                        libero consequuntur facere molestias beatae quod labore quidem ad quasi eius
-                                        pariatur quae nam quo soluta optio dicta, doloribus ullam fugit nulla!
-                                        Itaque necessitatibus eum sed quam eos id!</p>
+                                    <p>We adapt quickly to your evolving workforce needs—whether you’re hiring fast or
+                                        optimizing existing teams.</p>
                                 </div>
                             </div>
                         </div>
@@ -156,18 +149,13 @@
                             <h2 class="mb-0 rounded mb-2">
                                 <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseFour"
                                     aria-expanded="false" aria-controls="collapseFour">
-                                    Modi natus suscipit
+                                    Proven Results
                                 </a>
                             </h2>
-
-                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                                data-parent="#accordionExample">
+                            <div id="collapseFour" class="collapse" data-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos quos incidunt,
-                                        perspiciatis, ad saepe, magnam error adipisci vitae ut provident alias! Odio
-                                        debitis error ipsum molestiae voluptas accusantium quibusdam animi, soluta
-                                        explicabo asperiores aliquid, modi natus suscipit deleniti. Corrupti, autem.
-                                    </p>
+                                    <p>With a client retention rate above 95%, our success speaks for itself. We deliver
+                                        measurable outcomes you can trust.</p>
                                 </div>
                             </div>
                         </div>
@@ -184,63 +172,70 @@
                 <div class="col-md">
                     <div class="templateux-counter text-center">
                         <span class="templateux-number" data-number="99399">0</span>
-                        <span class="templateux-label">Number of Clients</span>
+                        <span class="templateux-label">Clients Served</span>
                     </div>
                 </div>
                 <div class="col-md">
                     <div class="templateux-counter text-center">
                         <span class="templateux-number" data-number="199">0</span>
-                        <span class="templateux-label">Number of Personnel</span>
+                        <span class="templateux-label">HR Professionals</span>
                     </div>
                 </div>
                 <div class="col-md">
                     <div class="templateux-counter text-center">
                         <span class="templateux-number" data-number="24">0</span>
-                        <span class="templateux-label">Years Of Experience</span>
+                        <span class="templateux-label">Years in Business</span>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
+
 
     <div class="templateux-section pb-0">
         <div class="container">
             <div class="row text-center mb-5">
                 <div class="col-12">
-                    <h2>The Leadership</h2>
+                    <h2>Meet Our Leadership</h2>
+                    <p class="lead">Guiding the Future of Workforce Solutions</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-6 col-sm-6 col-md-6 col-lg-4">
-                    <div class="staff" class="staff-img" style="background-image: url( {{asset('frontend/images/person_1.jpg') }}">
+                    <div class="staff" class="staff-img"
+                        style="background-image: url( {{ asset('frontend/images/person_1.jpg') }}">
                         <a href="#" class="desc">
                             <h3>Bob Miller</h3>
-                            <span>CEO and Co-Founder</span>
+                            <span>Chief Executive Officer</span>
                             <div class="parag">
-                                <p>Even the all-powerful Pointing has no control about the blind texts</p>
+                                <p>With 20+ years in strategic HR leadership, Bob brings vision, direction, and innovation
+                                    to C2B HR.</p>
                             </div>
                         </a>
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-6 col-lg-4">
-                    <div class="staff" class="staff-img" style="background-image: url( {{asset('frontend/images/person_2.jpg') }}">
+                    <div class="staff" class="staff-img"
+                        style="background-image: url( {{ asset('frontend/images/person_2.jpg') }}">
                         <a href="#" class="desc">
                             <h3>Jean Smith</h3>
-                            <span>CEO and Co-Founder</span>
+                            <span>Chief Operating Officer</span>
                             <div class="parag">
-                                <p>Even the all-powerful Pointing has no control about the blind texts</p>
+                                <p>Jean’s expertise in operations and team development keeps our services streamlined and
+                                    scalable.</p>
                             </div>
                         </a>
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-6 col-lg-4">
-                    <div class="staff" class="staff-img" style="background-image: url( {{asset('frontend/images/person_3.jpg') }}">
+                    <div class="staff" class="staff-img"
+                        style="background-image: url( {{ asset('frontend/images/person_3.jpg') }}">
                         <a href="#" class="desc">
                             <h3>David Wilson</h3>
-                            <span>CEO and Co-Founder</span>
+                            <span>Chief Talent Officer</span>
                             <div class="parag">
-                                <p>Even the all-powerful Pointing has no control about the blind texts</p>
+                                <p>David leads our recruitment and talent strategies, ensuring the right people are always
+                                    in the right roles.</p>
                             </div>
                         </a>
                     </div>
@@ -253,7 +248,8 @@
         <div class="container">
             <div class="row text-center mb-5">
                 <div class="col-12">
-                    <h2>Happy Customers</h2>
+                    <h2>What Our Clients Say</h2>
+                    <p class="lead">Real feedback from companies that trust C2B Human Resource</p>
                 </div>
             </div>
             <div class="row justify-content-center">
@@ -262,167 +258,168 @@
                     <div class="owl-carousel wide-slider-testimonial">
                         <div class="item">
                             <blockquote class="block-testomonial">
-                                <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and
-                                    Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right
-                                    at the coast of the Semantics, a large language ocean.&rdquo;</p>
-                                <p><cite>Drew Wilson, CEO and Founder of CoLab</cite></p>
+                                <p>&ldquo;C2B HR helped us scale our team quickly and with top-tier candidates. They truly
+                                    understood our business needs.&rdquo;</p>
+                                <p><cite>Drew Wilson, CEO of CoLab</cite></p>
                             </blockquote>
                         </div>
-
                         <div class="item">
                             <blockquote class="block-testomonial">
-                                <p>&ldquo;When she reached the first hills of the Italic Mountains, she had a last view
-                                    back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village
-                                    and the subline of her own road, the Line Lane. Pityful a rethoric question ran over
-                                    her cheek, then she continued her way.&rdquo;</p>
-                                <p><cite>Craig Smith, CEO and Founder of Slite</cite></p>
+                                <p>&ldquo;Their commitment to finding the perfect talent match has transformed our hiring
+                                    process. Highly recommended!&rdquo;</p>
+                                <p><cite>Craig Smith, CEO of Slite</cite></p>
                             </blockquote>
                         </div>
-
                         <div class="item">
                             <blockquote class="block-testomonial">
-                                <p>&ldquo;A small river named Duden flows by their place and supplies it with the
-                                    necessary regelialia. It is a paradisematic country, in which roasted parts of
-                                    sentences fly into your mouth.&rdquo;</p>
-                                <p><cite>Bob Robe, CEO and Founder of Fixer</cite></p>
+                                <p>&ldquo;Professional, responsive, and innovative — C2B Human Resource has been our
+                                    strategic HR partner for years.&rdquo;</p>
+                                <p><cite>Bob Robe, CEO of Fixer</cite></p>
                             </blockquote>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> <!-- .container -->
-    </div> <!-- .templateux-section -->
+        </div>
+    </div>
+
 
     <div class="templateux-section bg-light">
         <div class="container">
             <div class="row mb-5">
                 <div class="col-12 text-center mb-5">
                     <h2>Our Services</h2>
+                    <p class="lead">Innovative Solutions That Align Talent with Business Growth</p>
                 </div>
+
                 <div class="col-md-4 mb-4" data-aos="fade-up">
                     <div class="media block-icon-1 d-block text-center">
                         <div class="icon mb-3">
-                            <img src="{{ asset('frontend/images/flaticon/svg/004-gear.svg') }}" alt="Image" class="img-fluid">
+                            <img src="{{ asset('frontend/images/flaticon/svg/004-gear.svg') }}" alt="Image"
+                                class="img-fluid">
                         </div>
                         <div class="media-body">
-                            <h3 class="h5 mb-4">Regular Update</h3>
-                            <p>A small river named Duden flows by their place and supplies it with the necessary
-                                regelialia.</p>
+                            <h3 class="h5 mb-4">Workforce Optimization</h3>
+                            <p>We help you build high-performing teams with data-driven insights and ongoing support.</p>
                         </div>
-                    </div> <!-- .block-icon-1 -->
+                    </div>
                 </div>
+
                 <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="media block-icon-1 d-block text-center">
                         <div class="icon mb-3">
-                            <img src="{{ asset('frontend/images/flaticon/svg/005-conflict.svg') }}" alt="Image" class="img-fluid">
+                            <img src="{{ asset('frontend/images/flaticon/svg/005-conflict.svg') }}" alt="Image"
+                                class="img-fluid">
                         </div>
                         <div class="media-body">
-                            <h3 class="h5 mb-4">Infinite Posibilities</h3>
-                            <p>A small river named Duden flows by their place and supplies it with the necessary
-                                regelialia.</p>
+                            <h3 class="h5 mb-4">Talent Acquisition</h3>
+                            <p>Access top-tier talent pools tailored to your industry, culture, and company goals.</p>
                         </div>
-                    </div> <!-- .block-icon-1 -->
+                    </div>
                 </div>
+
                 <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="media block-icon-1 d-block text-center">
                         <div class="icon mb-3">
-                            <img src="{{ asset('frontend/images/flaticon/svg/006-meeting.svg') }}" alt="Image" class="img-fluid">
+                            <img src="{{ asset('frontend/images/flaticon/svg/006-meeting.svg') }}" alt="Image"
+                                class="img-fluid">
                         </div>
                         <div class="media-body">
-                            <h3 class="h5 mb-4">Good Security</h3>
-                            <p>A small river named Duden flows by their place and supplies it with the necessary
-                                regelialia.</p>
+                            <h3 class="h5 mb-4">Compliance & Risk Management</h3>
+                            <p>Ensure legal and regulatory HR compliance with our expert advisory services.</p>
                         </div>
-                    </div> <!-- .block-icon-1 -->
+                    </div>
                 </div>
 
                 <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
                     <div class="media block-icon-1 d-block text-center">
                         <div class="icon mb-3">
-                            <img src="{{ asset('frontend/images/flaticon/svg/007-brainstorming.svg') }}" alt="Image" class="img-fluid">
+                            <img src="{{ asset('frontend/images/flaticon/svg/007-brainstorming.svg') }}" alt="Image"
+                                class="img-fluid">
                         </div>
                         <div class="media-body">
-                            <h3 class="h5 mb-4">HR Management</h3>
-                            <p>A small river named Duden flows by their place and supplies it with the necessary
-                                regelialia.</p>
+                            <h3 class="h5 mb-4">HR Strategy Consulting</h3>
+                            <p>Align your HR approach with your company’s mission, vision, and evolving goals.</p>
                         </div>
-                    </div> <!-- .block-icon-1 -->
+                    </div>
                 </div>
+
                 <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="400">
                     <div class="media block-icon-1 d-block text-center">
                         <div class="icon mb-3">
-                            <img src="{{ asset('frontend/images/flaticon/svg/001-consultation.svg') }}" alt="Image" class="img-fluid">
+                            <img src="{{ asset('frontend/images/flaticon/svg/001-consultation.svg') }}" alt="Image"
+                                class="img-fluid">
                         </div>
                         <div class="media-body">
-                            <h3 class="h5 mb-4">Intuitive Thinking</h3>
-                            <p>A small river named Duden flows by their place and supplies it with the necessary
-                                regelialia.</p>
+                            <h3 class="h5 mb-4">Employee Engagement</h3>
+                            <p>Boost morale, retention, and performance through effective engagement programs.</p>
                         </div>
-                    </div> <!-- .block-icon-1 -->
+                    </div>
                 </div>
+
                 <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="500">
                     <div class="media block-icon-1 d-block text-center">
                         <div class="icon mb-3">
-                            <img src="{{ asset('frontend/images/flaticon/svg/009-brainstorming-2.svg') }}" alt="Image" class="img-fluid">
+                            <img src="{{ asset('frontend/images/flaticon/svg/009-brainstorming-2.svg') }}" alt="Image"
+                                class="img-fluid">
                         </div>
                         <div class="media-body">
-                            <h3 class="h5 mb-4">Play Video</h3>
-                            <p>A small river named Duden flows by their place and supplies it with the necessary
-                                regelialia.</p>
+                            <h3 class="h5 mb-4">Training & Development</h3>
+                            <p>Equip your workforce with skills for the future through curated learning programs.</p>
                         </div>
-                    </div> <!-- .block-icon-1 -->
+                    </div>
                 </div>
 
-            </div>
-            <div class="row">
-
                 <div class="col-md-12 text-center" data-aos="fade-up" data-aos-delay="100">
-                    <p><a href="#" class="btn btn-black py-3 px-4">More Features</a></p>
+                    <p><a href="#" class="btn btn-black py-3 px-4">More Services</a></p>
                 </div>
             </div>
         </div>
-    </div> <!-- .templateux-section -->
+    </div>
+
 
     <div class="container templateux-section">
         <div class="row">
             <div class="col-12 col-md-7 mx-auto text-center mb-5">
-                <h2>Our Blog</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit reiciendis dolore, facilis ipsam
-                    officiis quasi?</p>
+                <h2>Insights & Resources</h2>
+                <p class="lead">Stay informed with the latest trends in HR, recruitment, and workforce development.</p>
             </div>
         </div>
+
         <div class="d-flex flex-sm-row">
-            <a href="#" class="block-thumbnail-1 one-third" style="background-image: url('{{asset('frontend/images/slider-2.jpg') }} "
-                data-aos="fade">
+            <a href="#" class="block-thumbnail-1 one-third"
+                style="background-image: url('{{ asset('frontend/images/slider-2.jpg') }}');" data-aos="fade">
                 <div class="block-thumbnail-content">
-                    <h2>When she reached the first</h2>
-                    <span class="post-meta">June 18, 2020 &bullet; by Admin</span>
+                    <h2>Top 5 HR Tech Trends in 2025</h2>
+                    <span class="post-meta">August 3, 2025 &bullet; by Admin</span>
                 </div>
             </a>
-            <a href="#" class="block-thumbnail-1 two-third" style="background-image: url('{{asset('frontend/images/slider-1.jpg') }} "
-                data-aos="fade" data-aos-delay="100">
+            <a href="#" class="block-thumbnail-1 two-third"
+                style="background-image: url('{{ asset('frontend/images/slider-1.jpg') }}');" data-aos="fade"
+                data-aos-delay="100">
                 <div class="block-thumbnail-content">
-                    <h2>Duden flows by their place</h2>
-                    <span class="post-meta">July 17, 2020 &bullet; by Admin</span>
+                    <h2>How to Build a Resilient Workforce</h2>
+                    <span class="post-meta">July 21, 2025 &bullet; by Admin</span>
                 </div>
             </a>
         </div>
         <div class="d-flex flex-column flex-sm-row">
-            <a href="#" class="block-thumbnail-1 two-third" style="background-image: url('{{asset('frontend/images/slider-3.jpg') }} "
-                data-aos="fade" data-aos-delay="200">
+            <a href="#" class="block-thumbnail-1 two-third"
+                style="background-image: url('{{ asset('frontend/images/slider-3.jpg') }}');" data-aos="fade"
+                data-aos-delay="200">
                 <div class="block-thumbnail-content">
-                    <h2>Italic Mountains</h2>
-                    <span class="post-meta">March 18, 2020 &bullet; by Admin</span>
+                    <h2>The Future of Hybrid Work</h2>
+                    <span class="post-meta">June 15, 2025 &bullet; by Admin</span>
                 </div>
             </a>
-            <a href="#" class="block-thumbnail-1 one-third" style="background-image: url('{{asset('frontend/images/slider-4.jpg') }} "
-                data-aos="fade" data-aos-delay="300">
+            <a href="#" class="block-thumbnail-1 one-third"
+                style="background-image: url('{{ asset('frontend/images/slider-4.jpg') }}');" data-aos="fade"
+                data-aos-delay="300">
                 <div class="block-thumbnail-content">
-                    <h2>Behind the word mountains</h2>
-                    <span class="post-meta">March 22, 2020 &bullet; by Admin</span>
+                    <h2>Why Soft Skills Are In Demand</h2>
+                    <span class="post-meta">May 12, 2025 &bullet; by Admin</span>
                 </div>
             </a>
         </div>
-    </div> <!-- .templateux-section -->
-
+    </div>
 @endsection
